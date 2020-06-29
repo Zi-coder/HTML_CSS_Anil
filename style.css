@@ -1,0 +1,85 @@
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-width{
+    width: 58vh;
+    margin: 10px;
+    
+    border-left-color: white;
+    border-top-color: white;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+
+
+.sign-in {
+    font-size: 20px;
+    line-height: 20px;
+}
+.signbtn{
+    background: #1AA0CA;
+}
+i {
+    color: #fff;
+    font-size: 20px !important;
+}
+
+.input-group-append > * {
+    font-size: 22px !important;
+    
+}
+
+.outer-align {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-button {
+    width: 100%;
+    background: #1CE0CA;
+}
+
+.btn-facebook {
+    background: #3b5998;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-facebook:hover{
+    opacity: 1;
+}
+
+.btn-google {
+    background: #F05925;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-google:hover{
+    opacity: 1;
+}
+
+
+.button-icon{
+    height: 5vh;
+}
+.btn-epamlogin {
+    background: #3f07d4;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.btn-epamlogin:hover{
+    opacity: 1;
+}
+@media only screen and (max-width: 600px){
+    .outer-align{
+        display: flex;
+    }
+    .custom-width{
+        margin: 0px;
+    }
+}
